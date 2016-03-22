@@ -99,7 +99,7 @@ h5 {
 .top-navigation {
   background-color: #000000;
   position: fixed;
-  width: 110%;
+  width: 107%;
   /*z-index: 9999;*/
 }
 
@@ -121,6 +121,7 @@ h5 {
   display: inline-block;
   float: right;
   padding-left: 50px;
+
   /*margin-left: 1.563rem;*/
 }
 
@@ -176,6 +177,7 @@ margin-left: 100px;
 
 
 .new {
+  max-width: 1400px;
   padding-top: 125px;
   padding-bottom: 100px;
   margin-left: auto;
@@ -199,7 +201,7 @@ margin-left: 100px;
 
 .about_text {
   margin: 50px;
-  width: 600px;
+  width: 1100px;
   height: 200px;
   text-align: left;
 }
@@ -209,13 +211,14 @@ margin-left: 100px;
   display: block;
   font-family: 'Unna', serif;
   color: #545454;
-  font-size: 17px;
+  font-size: 23px;
 }
 
 /**
 * Education Section
 */
 .education {
+  max-width: 1400px;
   height: 650px;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -253,6 +256,8 @@ margin-left: 100px;
 */
 
 .first_experience {
+  max-width: 1400px;
+
   padding-top: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -283,6 +288,8 @@ margin-left: 100px;
 }
 
 .experience {
+  max-width: 1400px;
+
   margin-left: auto;
   margin-right: auto;
   font-size: 14px;
